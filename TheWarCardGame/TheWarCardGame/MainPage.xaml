@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TheWarCardGame"
+             x:Class="TheWarCardGame.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Image  x:Name="logoImage" Aspect="AspectFit" > </Image>
+        
+        <Label Text="Welcome to The War Card Game!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Button Text="Start"  BackgroundColor="#1edd0d" 
+                BorderWidth="2" BorderColor="#16ba07"  
+                HorizontalOptions="Center"
+                Clicked="BtnStart_Clicked"/>
+
+        <Button Text="Start" BackgroundColor="#1edd0d" 
+                BorderWidth="2" BorderColor="#16ba07"  
+                HorizontalOptions="Center"
+                Clicked="BtnStart_Clicked"/>
+
+        <Button Text="Stats" BackgroundColor="#1edd0d" 
+                BorderWidth="2" BorderColor="#16ba07"  
+                HorizontalOptions="Center"
+                Clicked="BtnStats_Clicked"/>
+
+        <Button Text="Settings" BackgroundColor="#1edd0d" 
+                BorderWidth="2" BorderColor="#16ba07"  
+                HorizontalOptions="Center"
+                Clicked="BtnSettings_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
