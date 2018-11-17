@@ -4,10 +4,11 @@ using System.Text;
 
 namespace TheWarCardGame
 {
-    static class DeckOfCards
+     public class DeckOfCards
     {
-        static private List<Card> playingCards;
-        static public void createTheDeck()
+         private List<Card> playingCards;
+
+         public void CreateTheDeck()
         {
             playingCards = new List<Card>();
 
@@ -22,7 +23,7 @@ namespace TheWarCardGame
 
         }//createTheDeck
 
-        static public void ShuffleCards(int numberOfTimes)
+        public void ShuffleCards(int numberOfTimes)
         {
             int cardCount = playingCards.Count;
             Random drawRandom = new Random();
@@ -39,5 +40,6 @@ namespace TheWarCardGame
 
 
         }//shuffle
+
     }//DeckOfCards
 }//nameSpace

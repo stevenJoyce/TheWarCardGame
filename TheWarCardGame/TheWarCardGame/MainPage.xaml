@@ -7,15 +7,10 @@
     <StackLayout>
         <!-- Place new controls here -->
         <Image  x:Name="logoImage" Aspect="AspectFit" > </Image>
-        
+
         <Label Text="Welcome to The War Card Game!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-
-        <Button Text="Start"  BackgroundColor="#1edd0d" 
-                BorderWidth="2" BorderColor="#16ba07"  
-                HorizontalOptions="Center"
-                Clicked="BtnStart_Clicked"/>
 
         <Button Text="Start" BackgroundColor="#1edd0d" 
                 BorderWidth="2" BorderColor="#16ba07"  
