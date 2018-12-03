@@ -12,25 +12,10 @@ namespace TheWarCardGame
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Start : ContentPage
     {
-        //Call the DeckOfCards class and add to var
-        DeckOfCards newDeck = new DeckOfCards();
-        public Start()
-        {
-            InitializeComponent();
-
-           
-        }
 
         private void DealBtn_Clicked(object sender, EventArgs e)
         {
-            //Create deck 
-            newDeck.CreateTheDeck();
-
-            //shuffle deck
-            newDeck.ShuffleCards(3);
-
-            //deal deck
-            
+            Navigation.PushAsync(new GamePlay());
         }//btn
     }//start
     

@@ -11,7 +11,7 @@
 
             <Button Text="Deal" BackgroundColor="#1edd0d" 
                      BorderWidth="2" BorderColor="#16ba07"  
-                     HorizontalOptions="Center" 
+                     HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
                     Clicked="DealBtn_Clicked" />
             
         </StackLayout>

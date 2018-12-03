@@ -4,9 +4,20 @@
              x:Class="TheWarCardGame.GamePlay">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Image x:Name="player2" ></Image>
+            <BoxView x:Name="player1"
+             CornerRadius="10"
+             WidthRequest="160"
+             HeightRequest="160"
+             VerticalOptions="Top"
+             HorizontalOptions="Left" />
+
+            <BoxView x:Name="player2"
+             CornerRadius="10"
+             WidthRequest="160"
+             HeightRequest="160"
+             VerticalOptions="bottom"
+             HorizontalOptions="right" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

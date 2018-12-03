@@ -12,9 +12,21 @@ namespace TheWarCardGame
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class GamePlay : ContentPage
 	{
+        //Call the DeckOfCards class and add to var
+        DeckOfCards newDeck = new DeckOfCards();
 		public GamePlay ()
 		{
 			InitializeComponent ();
+            //Create deck 
+            newDeck.CreateTheDeck();
+
+            //shuffle deck
+            newDeck.ShuffleCards(3);
 		}
+
+        
+
+            //deal deck
+            
 	}
 }
