@@ -24,9 +24,11 @@ namespace TheWarCardGame
             newDeck.ShuffleCards(3);
 		}
 
-        
 
-            //deal deck
-            
-	}
+
+        //deal deck
+
+      
+        
+    }
 }
