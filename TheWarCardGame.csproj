@@ -1,0 +1,143 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Images\Deck\Clubs10.png" />
+    <None Remove="Assets\Images\Deck\Clubs2.png" />
+    <None Remove="Assets\Images\Deck\Clubs3.png" />
+    <None Remove="Assets\Images\Deck\Clubs4.png" />
+    <None Remove="Assets\Images\Deck\Clubs5.png" />
+    <None Remove="Assets\Images\Deck\Clubs6.png" />
+    <None Remove="Assets\Images\Deck\Clubs7.png" />
+    <None Remove="Assets\Images\Deck\Clubs8.png" />
+    <None Remove="Assets\Images\Deck\Clubs9.png" />
+    <None Remove="Assets\Images\Deck\ClubsA.png" />
+    <None Remove="Assets\Images\Deck\ClubsJ.png" />
+    <None Remove="Assets\Images\Deck\ClubsK.png" />
+    <None Remove="Assets\Images\Deck\ClubsQ.png" />
+    <None Remove="Assets\Images\Deck\Diamonds10.png" />
+    <None Remove="Assets\Images\Deck\Diamonds2.png" />
+    <None Remove="Assets\Images\Deck\Diamonds3.png" />
+    <None Remove="Assets\Images\Deck\Diamonds4.png" />
+    <None Remove="Assets\Images\Deck\Diamonds5.png" />
+    <None Remove="Assets\Images\Deck\Diamonds6.png" />
+    <None Remove="Assets\Images\Deck\Diamonds7.png" />
+    <None Remove="Assets\Images\Deck\Diamonds8.png" />
+    <None Remove="Assets\Images\Deck\Diamonds9.png" />
+    <None Remove="Assets\Images\Deck\DiamondsA.png" />
+    <None Remove="Assets\Images\Deck\DiamondsJ.png" />
+    <None Remove="Assets\Images\Deck\DiamondsK.png" />
+    <None Remove="Assets\Images\Deck\DiamondsQ.png" />
+    <None Remove="Assets\Images\Deck\Hearts10.png" />
+    <None Remove="Assets\Images\Deck\Hearts2.png" />
+    <None Remove="Assets\Images\Deck\Hearts3.png" />
+    <None Remove="Assets\Images\Deck\Hearts4.png" />
+    <None Remove="Assets\Images\Deck\Hearts6.png" />
+    <None Remove="Assets\Images\Deck\Hearts7.png" />
+    <None Remove="Assets\Images\Deck\Hearts8.png" />
+    <None Remove="Assets\Images\Deck\Hearts9.png" />
+    <None Remove="Assets\Images\Deck\HeartsA.png" />
+    <None Remove="Assets\Images\Deck\HeartsJ.png" />
+    <None Remove="Assets\Images\Deck\HeartsK.png" />
+    <None Remove="Assets\Images\Deck\HeartsQ.png" />
+    <None Remove="Assets\Images\Deck\Spades10.png" />
+    <None Remove="Assets\Images\Deck\Spades2.png" />
+    <None Remove="Assets\Images\Deck\Spades3.png" />
+    <None Remove="Assets\Images\Deck\Spades4.png" />
+    <None Remove="Assets\Images\Deck\Spades5.png" />
+    <None Remove="Assets\Images\Deck\Spades6.png" />
+    <None Remove="Assets\Images\Deck\Spades7.png" />
+    <None Remove="Assets\Images\Deck\Spades8.png" />
+    <None Remove="Assets\Images\Deck\Spades9.png" />
+    <None Remove="Assets\Images\Deck\SpadesA.png" />
+    <None Remove="Assets\Images\Deck\SpadesJ.png" />
+    <None Remove="Assets\Images\Deck\SpadesK.png" />
+    <None Remove="Assets\Images\Deck\SpadesQ.png" />
+    <None Remove="Assets\Images\LogoApp.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Images\Deck\Clubs10.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Clubs2.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Clubs3.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Clubs4.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Clubs5.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Clubs6.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Clubs7.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Clubs8.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Clubs9.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\ClubsA.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\ClubsJ.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\ClubsK.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\ClubsQ.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Diamonds10.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Diamonds2.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Diamonds3.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Diamonds4.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Diamonds5.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Diamonds6.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Diamonds7.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Diamonds8.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Diamonds9.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\DiamondsA.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\DiamondsJ.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\DiamondsK.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\DiamondsQ.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Hearts9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Images\Deck\Hearts10.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Hearts2.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Hearts3.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Hearts4.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Hearts6.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Hearts7.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Hearts8.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\HeartsA.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\HeartsJ.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\HeartsK.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\HeartsQ.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Spades10.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Spades2.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Spades3.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Spades4.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Spades5.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Spades6.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Spades7.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Spades8.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\Spades9.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\SpadesA.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\SpadesJ.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\SpadesK.png" />
+    <EmbeddedResource Include="Assets\Images\Deck\SpadesQ.png" />
+    <EmbeddedResource Include="Assets\Images\LogoApp.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Gameplay.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Settings.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Start.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Stats.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
